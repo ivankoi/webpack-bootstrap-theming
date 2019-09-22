@@ -92,3 +92,6 @@ typings/
 
 # Project exclude paths
 /dist/
+
+.idea
+*.iml

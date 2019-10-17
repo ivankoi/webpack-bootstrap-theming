@@ -34,7 +34,7 @@ module.exports = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: 'fgas-styles.css'
+            filename: 'fgas-bootstrap.css'
         })
     ]
 };

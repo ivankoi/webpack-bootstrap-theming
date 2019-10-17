@@ -1,10 +1,25 @@
 $primary: #6E8B3D;
-$secondary: #E0EEE0;
+
+
 $card-cap-bg: #6E8B3D;
+$card-bg:#E0EEE0;
+
+
+$custom-file-button-bg: $primary;
+
+
+$label-margin-bottom:0;
+
+$container-max-widths: (
+        xl: 1280px
+);
 
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
+
+$card-cap-color: $white;
+$custom-file-button-color: $white;
 
 @import "../node_modules/bootstrap/scss/root";
 @import "../node_modules/bootstrap/scss/reboot";
